@@ -1,0 +1,27 @@
+testCV0:  pass
+testCV1:  edu.ufl.cise.cop5555.sp12.context.ContextException: same declaration in same scope
+testCV2:  pass
+testCV3:  pass
+testCV4:  pass
+testCV5:  edu.ufl.cise.cop5555.sp12.context.ContextException: an undefined identifier in an lvalue
+testCV6:  pass
+testCV7:  edu.ufl.cise.cop5555.sp12.context.ContextException: same declaration in same scope
+testCV8:  edu.ufl.cise.cop5555.sp12.context.ContextException: illegal left identifier type in do each command
+testCV9:  edu.ufl.cise.cop5555.sp12.context.ContextException: incompatible types in do each command
+testCV10: edu.ufl.cise.cop5555.sp12.context.ContextException: incompatible types in assignment
+testCV11: edu.ufl.cise.cop5555.sp12.context.ContextException: expr type in a expr assignment is not a simple type
+testCV12: pass
+testCV13: edu.ufl.cise.cop5555.sp12.context.ContextException: type mismatch in a not expression
+testCV14: edu.ufl.cise.cop5555.sp12.context.ContextException: expression in if command is not a boolean one
+testCV15: edu.ufl.cise.cop5555.sp12.context.ContextException: type mismatch in a minus expression
+testCV16: edu.ufl.cise.cop5555.sp12.context.ContextException: incompatible types in assignment
+testCV17: edu.ufl.cise.cop5555.sp12.context.ContextException: mismatched type in a binary expression
+testCV18: pass
+testCV19: edu.ufl.cise.cop5555.sp12.context.ContextException: mismatched type in a binary expression
+testCV20: edu.ufl.cise.cop5555.sp12.context.ContextException: incompatible types in assignment
+testCV21: edu.ufl.cise.cop5555.sp12.context.ContextException: incompatible types in assignment
+testCV22: pass
+testCV23: pass
+testCV24: pass
+testCV25: pass
+testCV26: pass

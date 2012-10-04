@@ -1,0 +1,23 @@
+prog test1 map [int, int] m1;
+m1 = {[0,0],[1,8], [2,1], [3,7], [4,5], [5,2], [6,3], [7,4], [8,6]};
+int j; j=2;
+
+do (j<=8)
+    int item; 
+    item = m1[j];
+    int hole; 
+    hole = j;
+    do ((hole > 1) & (m1[hole-1] > item))
+        m1[hole] = m1[hole-1];
+        hole = hole-1;
+    od;
+    m1[hole] = item;
+    j=j+1;
+od;
+int k; 
+int v;
+do m1:[k,v]
+    print v; 
+    print " ";
+od;
+gorp

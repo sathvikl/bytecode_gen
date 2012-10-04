@@ -1,0 +1,18 @@
+package edu.ufl.cise.cop5555.sp12.ast;
+
+public class DoCommand extends Command {
+	
+	public final Expression expression;
+	public final Block block;
+
+	public DoCommand(Expression expression, Block block) {
+		this.expression = expression;
+		this.block = block;
+	}
+
+	@Override
+	public Object visit(ASTVisitor v, Object arg) throws Exception {
+		return v.visitDoCommand(this,arg);
+	}
+
+}
